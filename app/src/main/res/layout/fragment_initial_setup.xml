@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.roka.finomena.views.fragment.InitialSetupFragment">
+
+<!--    <TextView
+        android:id="@+id/tv_initial_setup_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/mex_touch_message" />-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:ems="1"
+        android:id="@+id/et_grid_count"
+        android:layout_gravity="center"
+        android:inputType="numberDecimal"
+        android:hint="Enter value if N for a NxN grid"/>
+
+    <TextView
+        android:id="@+id/tv_initial_setup_next"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:text="@string/next"
+        android:layout_gravity="bottom"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse" />
+
+</FrameLayout>
